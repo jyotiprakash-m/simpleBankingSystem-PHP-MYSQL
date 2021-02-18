@@ -1,0 +1,210 @@
+/* Styling Banner - index.php */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    background-size: cover;
+}
+
+.banner-body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.banner-right{
+    padding: 10px;
+}
+.heading{
+    font-size: 45px;
+}
+.para{
+    font-size: 18px;
+}
+
+.links{
+    margin-top: 50px;
+}
+.link,.feature-link{
+    text-decoration: none;
+    color:white;
+    padding: 10px 20px;
+    background: #6366f1;
+    border-radius: 5px;
+}
+.link:hover,.feature-link:hover{
+    background-color: #282bec;
+}
+
+/* Styling Features-index.php */
+.heading-section{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px auto;
+}
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px auto;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+/* Styling form-(create user page)  */
+
+.create-user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.form-body{
+    max-width: 600px;
+    min-width: 380px;
+    padding: 25px;
+    border: 2px solid skyblue;
+    -webkit-box-shadow: 3px 3px 8px 0px rgba(98,117,120,0.63);
+-moz-box-shadow: 3px 3px 8px 0px rgba(98,117,120,0.63);
+box-shadow: 3px 3px 8px 0px rgba(98,117,120,0.63);
+}
+.input{
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    
+}
+input{
+    outline: none;
+}
+.input-field{
+    border: 2px solid #ddd;
+    padding: 5px;
+}
+input[type="submit"]{
+    background-color: skyblue;
+    padding: 8px 15px;
+    border-radius: 3px;
+    color: white;
+}
+.input-submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Styling sendMoney.php */
+.table-body{
+    padding: 0 15px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #eefbff;
+  }
+  tr:nth-child(1) {
+      background-color: skyblue;
+  }
+  .sendmoney{
+     cursor: pointer;
+  }
+  /* Styling Transaction-(transaction.php) */
+  .sender-info{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+
+  }
+  .heading-user{
+    font-size: 25px; padding: 0px 10px;border-bottom: 3px solid skyblue;
+  }
+
+  .user-info{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border: 2px solid skyblue;
+      max-width: 500px;
+      min-width:380px;
+  }
+  .info{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+  }
+  .info div{
+      margin: 0px 10px;
+  }
+
+  /* Senderinfo styling */
+  .receiver-info{
+    
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+  .receiver-info div{
+    margin: 10px 0;
+  }
+ .trans-heading{
+     font-size: 30px;
+     text-align: center;
+ }
+ .receiver{
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+
+ }
+ .receiver select{
+     border: 2px solid skyblue;
+     width: 350px;
+     height: 35px;
+ }
+ .amount{
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+ }
+ .amount input{
+    border: 2px solid skyblue;
+    width: 350px;
+    height: 35px;
+
+ }
+ .submit-btn{
+     cursor: pointer;
+ }
